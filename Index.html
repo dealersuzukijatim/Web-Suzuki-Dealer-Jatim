@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html b:version='2' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <title><data:blog.pageTitle/></title>
+
+  <style>
+    /* RESET DAN GAYA UMUM */
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #1b1f3b;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1100px;
+      margin: 20px auto;
+    }
+
+    .car-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .car {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .car:hover {
+      transform: scale(1.02);
+    }
+
+    .car img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .car-content {
+      padding: 10px 15px;
+    }
+
+    .car-content h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .price {
+      color: #e63946;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    .specs {
+      font-size: 13px;
+      color: #555;
+    }
+
+    .btn-wa {
+      display: inline-block;
+      margin-top: 8px;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      font-size: 13px;
+      transition: background 0.3s;
+    }
+
+    .btn-wa:hover {
+      background: #1ebd5a;
+    }
+
+    footer {
+      background: #1b1f3b;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 13px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>📣 Jual Mobil Bekas & Baru - TokoMobil.id</h1>
+    <p>Harga Terbaik | Kualitas Terjamin | Siap Test Drive</p>
+  </header>
+
+  <div class="container">
+    <h2>🚗 Daftar Mobil Tersedia</h2>
+    <div class="car-list">
+
+      <!-- MOBIL 1 -->
+      <div class="car">
+        <img src="https://cdn.motor1.com/images/mgl/JooVx/s1/toyota-avanza.jpg" alt="Toyota Avanza">
+        <div class="car-content">
+          <h3>Toyota Avanza 2022</h3>
+          <p class="price">Rp 195.000.000</p>
+          <p class="specs">Manual | Bensin | 30.000 km</p>
+          <a class="btn-wa" href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Toyota%20Avanza%202022" target="_blank">💬 Chat Penjual</a>
+        </div>
+      </div>
+
+      <!-- MOBIL 2 -->
+      <div class="car">
+        <img src="https://cdn.motor1.com/images/mgl/9P8p6/s1/honda-brio-satya.jpg" alt="Honda Brio">
+        <div class="car-content">
+          <h3>Honda Brio Satya 2021</h3>
+          <p class="price">Rp 165.000.000</p>
+          <p class="specs">Automatic | Bensin | 20.000 km</p>
+          <a class="btn-wa" href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Honda%20Brio%20Satya%202021" target="_blank">💬 Chat Penjual</a>
+        </div>
+      </div>
+
+      <!-- MOBIL 3 -->
+      <div class="car">
+        <img src="https://cdn.motor1.com/images/mgl/6oVqR/s1/toyota-fortuner.jpg" alt="Toyota Fortuner">
+        <div class="car-content">
+          <h3>Toyota Fortuner 2020</h3>
+          <p class="price">Rp 460.000.000</p>
+          <p class="specs">Automatic | Diesel | 45.000 km</p>
+          <a class="btn-wa" href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20Toyota%20Fortuner%202020" target="_blank">💬 Chat Penjual</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 TokoMobil.id | Jual Mobil Baru & Bekas</p>
+  </footer>
+</body>
+</html>
